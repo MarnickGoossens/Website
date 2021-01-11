@@ -1,2 +1,3 @@
-# first
-this is my first git program
+# Website
+This is my first git program
+It is to make a website
