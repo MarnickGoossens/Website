@@ -21,19 +21,22 @@
     <h1>Leren programmeren</h1>
     <label>checkbox</label>
     <input type="checkbox" name="symptomen">
-    <form method="post">
+    <form method="post" data-netlify="true" name="contact">
         <label>Voornaam</label>
         <input type="text" name="voornaam">
         <label>Achternaam</label>
         <input type="text" name="achternaam">
-        <label>Verjaardag</label>
-        <input type="date" name="verjaardag">
-        <label>Score</label>
-        <input type="number" min="0" max="100" name="score">
+        <label>Lengte</label>
+        <input type="number" min="10" max="250" name="Lengte">
+        <label>Geboortedatum</label>
+        <input type="date" name="geboortedatum">
+        <label>Gehuwd</label>
+        <input type="checkbox" name="gehuwd">
+        <label>Land</label>
         <select name="huisdier">
-            <option value="k">kat</option>
-            <option value="h">hond</option>
-            <option value="v">vis</option>
+            <option value="k">Nederlands</option>
+            <option value="h">Frans</option>
+            <option value="v">Duits</option>
           </select>
         <input type="submit" value="Verstuur">
     </form>
