@@ -1,1 +1,39 @@
 <!DOCTYPE html>
+<html>
+    <body>
+        <style>
+        h1{
+            background-color: black;
+            color: white;
+            font-size: 32px;
+            }
+        </style>
+    <h1>Taak invulformulier</h1>
+    <form method="post" data-netlify="true" name="contact">
+        <label>Voornaam:</label>
+        <input type="text" name="voornaam">
+        <p></p>
+        <label>Achternaam:</label>
+        <input type="text" name="achternaam">
+        <p></p>
+        <label>Lengte:</label>
+        <input type="number" min="10" max="250" name="Lengte">
+        <p></p>
+        <label>Geboortedatum:</label>
+        <input type="date" name="geboortedatum">
+        <p></p>
+        <label>Gehuwd:</label>
+        <input type="checkbox" name="gehuwd">
+        <p></p>
+        <label>Land:</label>
+        <select name="huisdier">
+            <option value="k">Nederlands</option>
+            <option value="h">Frans</option>
+            <option value="v">Duits</option>
+          </select>
+        <p></p>
+        <input type="submit" value="Verstuur">
+    <p></p>
+    <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--3GWZPuoM--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://thepracticaldev.s3.amazonaws.com/i/fk0849hvg2rt13bpqhjy.jpg">
+    </body>
+</html>
